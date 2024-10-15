@@ -8,9 +8,9 @@ namespace ExcelToDb
     {
         static void Main(string[] args)
         {
-            string connectionString = "Server=192.168.0.240;Database=ALMSDB;UID=sa;PWD=sa@123;";
-            string excelFilePath = "C:\\Users\\gayatri.rajput\\Desktop\\ResumeCopy.xlsx";
-            string resumeFilePath = "I:\\SVN\\ExcelToDB\\ResumePDF";
+            string connectionString = "Server=192.168.0.240;Database=ALMSDB;UID=sa;PWD=sa@123;"; // Db connection string
+            string excelFilePath = "C:\\Users\\gayatri.rajput\\Desktop\\ResumeCopy.xlsx"; // excel file path
+            string resumeFilePath = "I:\\SVN\\ExcelToDB\\ResumePDF";//resume File Path
 
             FileInfo existingFile = new FileInfo(excelFilePath);
 
